@@ -2,6 +2,8 @@
 
 int main(void) {
   char str[] = "hello";
-  printf("%s", str);
+  int i = 5;
+  for (i = 0; i < 5; i++) printf("%s", str);
+  printf("hello %d", i);
   return 0;
 }
